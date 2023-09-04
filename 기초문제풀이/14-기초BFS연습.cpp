@@ -1,4 +1,3 @@
-/*
 int N;
 int map[10][10];
 bool visited[10][10];
@@ -32,7 +31,7 @@ void bfs_init(int map_size, int input_map[10][10]) {
 }
 
 int bfs(int x1, int y1, int x2, int y2) {
-    // ť �ʱ�ȭ
+    // Å¥ ÃÊ±âÈ­
     front = 0;
     rear = 0;
 
@@ -68,4 +67,3 @@ int bfs(int x1, int y1, int x2, int y2) {
 
     return -1;
 }
-*/
