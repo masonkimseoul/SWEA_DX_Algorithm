@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 
@@ -31,4 +30,3 @@ int main()
 		cout << "#" << T + 1 << " " << compareString(str1, str2) << "\n";
 	}
 }
-*/
