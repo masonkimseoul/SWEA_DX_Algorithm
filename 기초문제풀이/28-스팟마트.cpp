@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <cstring>
 #include <algorithm>
@@ -52,4 +51,3 @@ int main()
         cout << take(0, 0, 0, 0) << "\n";
     }
 }
-*/
