@@ -1,7 +1,8 @@
-/*
 #include <unordered_map>
 #include <vector>
 #include <queue>
+
+using namespace std;
 
 struct Post {
     int pID;
@@ -16,25 +17,17 @@ bool operator<(const Post& a, const Post& b) {
     bool within1000_b = b.timestamp >= 1000;
 
     if (within1000_a && within1000_b) {
-        if (a.likes == b.likes) {
-            return a.timestamp < b.timestamp;
-        }
+        if (a.likes == b.likes) return a.timestamp < b.timestamp;
         return a.likes < b.likes;
     }
-    else if (within1000_a) {
-        return false;
-    }
-    else if (within1000_b) {
-        return true;
-    }
-    else {
-        return a.timestamp < b.timestamp;
-    }
+    else if (within1000_a) return false;
+    else if (within1000_b) return true;
+    else return a.timestamp < b.timestamp;
 }
 
-std::unordered_map<int, std::unordered_map<int, bool>> follows;  // {follower: {followee: true/false}}
-std::unordered_map<int, std::vector<Post>> userPosts;            // {userID: posts}
-std::unordered_map<int, Post> allPosts;                          // {postID: post}
+unordered_map<int, std::unordered_map<int, bool>> follows;
+unordered_map<int, std::vector<Post>> userPosts;
+unordered_map<int, Post> allPosts;
 
 void init(int N) {
     follows.clear();
@@ -57,9 +50,8 @@ void like(int pID, int timestamp) {
 }
 
 void getFeed(int uID, int currentTimestamp, int pIDList[]) {
-    std::priority_queue<Post> feed;
+    priority_queue<Post> feed;
 
-    // 팔로잉하는 사용자들의 포스트를 모두 살펴보고, 피드에 추가합니다.
     if (follows.find(uID) != follows.end()) {
         for (const auto& followee : follows[uID]) {
             if (followee.second && userPosts.find(followee.first) != userPosts.end()) {
@@ -76,10 +68,5 @@ void getFeed(int uID, int currentTimestamp, int pIDList[]) {
         feed.pop();
     }
 
-    while (count < 10) {
-        pIDList[count++] = 0;
-    }
+    while (count < 10) pIDList[count++] = 0;
 }
-
-
-*/
