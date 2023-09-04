@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #define MAX_N 20000
 
@@ -53,4 +52,3 @@ int main()
 		}
 	}
 }
-*/
