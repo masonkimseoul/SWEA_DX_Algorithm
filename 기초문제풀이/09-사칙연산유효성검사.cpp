@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 
@@ -45,4 +44,3 @@ int main()
 		cout << "#" << TC + 1 << " " << position << "\n";
 	}
 }
-*/
