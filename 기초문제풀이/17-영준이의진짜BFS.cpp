@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -35,9 +34,8 @@ void elem_sparse() {
     }
 }
 
-
-
-int main() {
+int main()
+{
 
     int TC, c = 1, i, tmp, now, depth, next, LCA;
     ll ret;
@@ -113,4 +111,3 @@ int main() {
         printf("#%d %lld\n", c++, ret);
     }
 }
-*/
