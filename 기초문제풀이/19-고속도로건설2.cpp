@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 #define ll long long
 
@@ -104,4 +103,3 @@ int main()
 		cout << "#" << TC + 1 << " " << result << "\n";
 	}
 }
-*/
