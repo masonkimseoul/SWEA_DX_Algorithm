@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -21,7 +20,8 @@ void GetAnswer() {
 	answer = pq.top().first;
 }
 
-int main() {
+int main()
+{
 	int T, TC, i;
 	cin >> T;
 	for (TC = 0; TC < T; TC++) {
@@ -32,4 +32,3 @@ int main() {
 		cout << "#" << TC + 1 << " " << answer << "\n";
 	}
 }
-*/
