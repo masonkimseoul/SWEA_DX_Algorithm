@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -51,7 +50,8 @@ int pop() {
     return data;
 }
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
@@ -72,4 +72,3 @@ int main() {
         cout << '\n';
     }
 }
-*/
