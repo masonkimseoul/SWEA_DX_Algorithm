@@ -1,4 +1,3 @@
-/*
 #define MAX_USER 100000
 #define MAX_TOP 10
 
@@ -50,4 +49,3 @@ int getTop10(int result[MAX_TOP]) {
     }
     return cnt;
 }
-*/
