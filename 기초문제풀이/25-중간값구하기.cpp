@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <queue>
 #include <algorithm>
@@ -6,7 +5,8 @@
 using namespace std;
 ll T, N, a, sum;
 
-int main() {
+int main()
+{
 	int TC, T, i, x, y;
 	cin >> T;
 
@@ -48,4 +48,3 @@ int main() {
 		cout << "#" << TC + 1 << " " << sum << "\n";
 	}
 }
-*/
