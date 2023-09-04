@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 #include<string>
 #include<cstring>
@@ -41,7 +40,7 @@ int bfs() {
     return dp[N - 1][N - 1];
 }
 
-int main(int argc, char** argv)
+int main()
 {
     int TC, T, i, j;
     string s;
@@ -59,4 +58,3 @@ int main(int argc, char** argv)
         cout << "#" << TC + 1 << " " << bfs() << "\n";
     }
 }
-*/
