@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 
@@ -80,4 +79,3 @@ int main()
 		nodeCnt = 0;
 	}
 }
-*/
