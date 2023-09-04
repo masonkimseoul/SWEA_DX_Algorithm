@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 #include<algorithm>
 #include<vector>
@@ -44,4 +43,3 @@ int main()
 		for (i = 0; i <= N; i++) tree[i] = NULL;
 	}
 }
-*/
