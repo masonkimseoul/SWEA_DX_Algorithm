@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -64,7 +63,8 @@ void dfs(int idx, int len, int conn) {
 	dfs(idx + 1, len, conn);
 }
 
-int main() {
+int main()
+{
 	int test, tc, i, j;
 	cin >> test;
 	for (tc = 0; tc <= test; tc++) {
@@ -86,4 +86,3 @@ int main() {
 		cout << "#" << tc + 1 << " " << minLength << '\n';
 	}
 }
-*/
