@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #define ull unsigned long long
 using namespace std;
@@ -29,4 +28,3 @@ int main()
 		cout << "#" << TC + 1 << " " << find(a, b, k) << "\n";
 	}
 }
-*/
