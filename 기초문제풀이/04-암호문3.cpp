@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 
@@ -16,5 +15,3 @@ node* getNode(int data) {
 
 	return &nodePool[nodePoolCnt++];
 }
-*/
-
