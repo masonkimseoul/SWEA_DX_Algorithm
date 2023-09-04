@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 
@@ -20,4 +19,3 @@ int main()
 		cout << "#" << T + 1 << " " << dp[N][K] << "\n";
 	}
 }
-*/
