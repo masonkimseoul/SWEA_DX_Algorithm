@@ -1,4 +1,4 @@
-## 삼성전자 DX부문 하계 대학생 S/W 알고리즘 역량 강화 특강
+# 삼성전자 DX부문 하계 대학생 S/W 알고리즘 역량강화 특강
 
 1. [기초학습 문제](https://swexpertacademy.com/main/code/codeBattle/battleDetail.do?categoryId=AYkfitEKLNADFASe&battleMainPageIndex=2) 7/17 - 8/4
 
