@@ -1,4 +1,3 @@
-/*
 #define MAX_N 50005
 #define HASH_SIZE (1<<15)
 
@@ -126,4 +125,3 @@ void result(char ret[]) {
     mstrcpy(ret, str);
     return;
 }
-*/
